@@ -17,7 +17,7 @@ A modern implementation of the classic Minesweeper game built with Next.js, Type
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
@@ -55,14 +55,6 @@ Visit `http://localhost:3000` to play the game.
 - [Radix UI](https://www.radix-ui.com/) - Accessible Components
 - [Lucide Icons](https://lucide.dev/) - Icons
 
-## 🎵 Sound Credits
-
-Sound effects used in this game are from:
-- Click sound: [source]
-- Flag sound: [source]
-- Mine explosion: [source]
-- Win/Lose sounds: [source]
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -80,16 +72,19 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 🎯 Game Features
 
 ### Difficulty Levels
+
 - 🌱 Beginner: 9x9 grid with 10 mines
 - ⭐ Intermediate: 16x16 grid with 40 mines
 - 🔥 Expert: 16x30 grid with 99 mines
 
 ### Controls
+
 - Left Click: Reveal cell
 - Right Click: Place/remove flag
 - Double Click: Quick reveal (on revealed numbers)
 
 ### UI Features
+
 - Real-time mine counter
 - Timer
 - Theme toggle (Dark/Light mode)
