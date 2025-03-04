@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Modern Minesweeper
 
-## Getting Started
+A modern implementation of the classic Minesweeper game built with Next.js, TypeScript, and TailwindCSS. Features a clean UI, dark mode support, and sound effects.
 
-First, run the development server:
+![Minesweeper Game](screenshot.png)
+
+## ✨ Features
+
+- 🎯 Three difficulty levels: Beginner, Intermediate, and Expert
+- 🌓 Dark/Light mode support
+- 🔊 Sound effects for actions (can be muted)
+- 🎨 Modern UI with smooth animations
+- 📱 Responsive design
+- ⌨️ Keyboard accessibility
+- 💡 Built-in "How to Play" guide
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/minesweeper.git
+
+# Navigate to project directory
+cd minesweeper
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` to play the game.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎮 How to Play
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Left-click to reveal a cell
+2. Right-click to place/remove a flag
+3. Numbers show how many mines are in adjacent cells
+4. Flag all mines to win
+5. Don't click on a mine or game over!
 
-## Learn More
+## 🛠️ Built With
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 14](https://nextjs.org/) - React Framework
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [TailwindCSS](https://tailwindcss.com/) - Styling
+- [Shadcn/ui](https://ui.shadcn.com/) - UI Components
+- [Radix UI](https://www.radix-ui.com/) - Accessible Components
+- [Lucide Icons](https://lucide.dev/) - Icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎵 Sound Credits
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sound effects used in this game are from:
+- Click sound: [source]
+- Flag sound: [source]
+- Mine explosion: [source]
+- Win/Lose sounds: [source]
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🎯 Game Features
+
+### Difficulty Levels
+- 🌱 Beginner: 9x9 grid with 10 mines
+- ⭐ Intermediate: 16x16 grid with 40 mines
+- 🔥 Expert: 16x30 grid with 99 mines
+
+### Controls
+- Left Click: Reveal cell
+- Right Click: Place/remove flag
+- Double Click: Quick reveal (on revealed numbers)
+
+### UI Features
+- Real-time mine counter
+- Timer
+- Theme toggle (Dark/Light mode)
+- Sound toggle
+- Responsive design for all screen sizes
