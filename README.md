@@ -7,7 +7,6 @@ A modern implementation of the classic Minesweeper game built with Next.js, Type
 ## ✨ Features
 
 - 🎯 Three difficulty levels: Beginner, Intermediate, and Expert
-- 🌓 Dark/Light mode support
 - 🔊 Sound effects for actions (can be muted)
 - 🎨 Modern UI with smooth animations
 - 📱 Responsive design
